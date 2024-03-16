@@ -167,7 +167,7 @@ checkoutBtn.addEventListener("click", function() {
 
   const cartItems = cart.map((item) => {
     return (
-      `${item.name} Quantidade: (${item.qtd}) Preço: R$${item.price} |`
+      `${item.name} Quantidade: (${item.qtd}) Preço: R$${item.price} -->`
     )
   }).join("")
 
