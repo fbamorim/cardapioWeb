@@ -160,7 +160,7 @@ checkoutBtn.addEventListener("click", function() {
         background: "#ef4444",
       }
     }).showToast()
-
+''
 
     return
   }
@@ -172,7 +172,7 @@ checkoutBtn.addEventListener("click", function() {
   }).join("")
 
   const message = encodeURIComponent(cartItems)
-  const phone = "11914680261"
+  const phone = "+5511986082593"
 
   window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, "_blank")
 
